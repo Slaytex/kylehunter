@@ -1,0 +1,125 @@
+
+*{text-decoration:none;font-size:1em;outline:none;margin:0;padding:0}code,kbd,samp,pre,tt,var,textarea,input,select,isindex,listing,xmp,plaintext{font:inherit;white-space:normal}a,img,a img,iframe,form,abbr,acronym,object,applet,table,a abbr,a acronym{border-width:0}dfn,i,cite,var,address,em{font-style:normal}th,b,strong,h1,h2,h3,h4,h5,h6,dt{font-weight:400}caption,th,td{text-align:left}
+		
+		/* */q{quotes:"\201C""\201D""\2018""\2019"}ul,ol,dir,menu{list-style:none}sub,sup{vertical-align:baseline}a{color:inherit}
+
+
+form {
+
+	padding-top: 14px;
+	padding-bottom: 6px;
+}
+
+
+
+.messagebox{
+
+overflow:hidden;
+height: 168px;
+font-size: 23px;
+color: #747474;
+	padding-bottom: 0;
+	padding-left: 0;
+	padding-right: 0;
+	
+}
+
+label {
+	
+
+display: block;
+color: #feffff;
+height: 35px;
+
+}
+
+label.namebox
+{
+	position: relative;
+	float: left;
+	display: inline-block;
+}
+
+label.emailbox
+{
+	position: relative;
+	display: inline-block;
+	margin-right: 0;
+
+}
+
+label.messagebox
+{
+	padding-top: 11px;
+	
+
+}
+
+/*input.input_text.color2
+{
+	position: relative;
+	display: block;
+	clear: both;
+	padding-top: 2px;
+	top: 11px;
+	width: 383px;
+}*/
+
+label span {
+color: #c3cfdf;
+float:left;
+width: 89px;
+text-align:right;
+font: small-caps 14px Arial, Helvetica, Geneva, sans-serif;
+letter-spacing: 3px;
+padding-left: 0;
+padding-right: 20px;
+margin-top: 7px;
+}
+
+.input_text {
+width: 377px;
+height: 33px;
+color: #c3cfdf;
+border: 0;
+	font: 23px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	padding-top: 3px;
+	padding-left: 3px;
+	padding-right: 3px;
+	background-image: url(images/form_underline.png);
+	background-color: #5a8cce;
+}
+
+
+.message {
+width: 869px;
+color: #c3cfdf;
+padding: 3px;
+height: 112px;
+border: 0;
+	font: 23px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	background-image: url(images/form_message_box.png);
+	background-color: #5a8cce;
+}
+
+.button
+{
+background: #4c7fc8;
+border: none;
+position: relative;
+width: 875px;
+color: #9db9df;
+left: 109px;
+top: 6px;
+font: 15px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+padding-top: 5px;
+padding-bottom: 5px;
+letter-spacing: 2px;
+}
+
+.button:hover
+{
+text-decoration: underline;
+cursor: pointer;
+	color: #d5dfed;
+}

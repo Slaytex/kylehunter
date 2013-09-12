@@ -1,0 +1,79 @@
+*{text-decoration:none;font-size:1em;outline:none;margin:0;padding:0}code,kbd,samp,pre,tt,var,textarea,input,select,isindex,listing,xmp,plaintext{font:inherit;white-space:normal}a,img,a img,iframe,form,abbr,acronym,object,applet,table,a abbr,a acronym{border-width:0}dfn,i,cite,var,address,em{font-style:normal}th,b,strong,h1,h2,h3,h4,h5,h6,dt{font-weight:400}caption,th,td{text-align:left}
+		
+		/* */q{quotes:"\201C""\201D""\2018""\2019"}ul,ol,dir,menu{list-style:none}sub,sup{vertical-align:baseline}a{color:inherit}
+		_______________________________
+		
+		body {
+		font:normal 12px Arial, Helvetica, sans-serif;	}
+		
+		html {
+		background-color: #ffffff;
+		}	
+		
+		
+		h1, h2, h3, h4 {
+		margin:0;
+		padding:0;
+		}
+		
+p {
+	font: normal 39px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	text-align: center;
+	margin-top: 49px;
+	color: #57845d;
+}
+		
+		
+.ita
+{
+	font-style: italic;
+	font-family: georgia, cursive;
+	font-size: 22px;
+	
+}
+		
+	.wrapper {
+	  width: 580px;
+	  margin-left: auto;
+	  margin-right: auto;
+	/*  border: 1px solid red;*/
+
+}
+
+li {
+				
+				border: 5px solid #bcd6b9;
+				color:#999999;
+				width: 238px;
+				display: inline-block;
+				text-align: center;
+				margin: 15px 13px 13px;
+				padding: 2px 7px 7px;
+				position: relative;
+	font: normal 23px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	height: 330px;
+}
+
+
+		li.one {
+	border-color: #969696;
+	background: url(http://www.slaytex.com/images/soccerball/soccer_ball_02.jpg) -140px -3px;
+	color: #5e5e5e;
+}
+
+li.one:hover{
+	border: 5px solid blue; 
+	}
+
+li.two:hover {
+	border: 5px solid red; 
+	}
+
+			
+		li.two {
+	
+	
+	border-color: #92cd9d;
+	background: #3662a7 url(images/artwork/vertical_farm_building.png) -10px no-repeat;
+	color: #8abebe;
+}
